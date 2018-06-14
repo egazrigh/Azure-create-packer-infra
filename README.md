@@ -9,10 +9,10 @@ This is a simple Terraform code to deploy a Packer infra on Azure derived from t
 # Usage
 Need to add a provider.tf file to configure theses variables or add it trough ENV variables
 
-```JSON
+```
 provider "azurerm" {
-  subscription_id = "
-  client_id       = "
+  subscription_id = ""
+  client_id       = ""
   client_secret   = ""
   tenant_id       = ""
 }
